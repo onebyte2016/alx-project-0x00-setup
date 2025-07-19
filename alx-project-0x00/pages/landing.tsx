@@ -8,7 +8,15 @@ const Landing: React.FC =() =>{
         <div>
             <h1 className="text-xl font-extralight">Landing Page</h1>
             <Card />
+            <div className="space-y-4 p-6">
+      <h1 className="text-2xl font-bold mb-4">Landing Page Buttons</h1>
 
+      {/* Small, Medium, Large Buttons with Different Shapes */}
+      <Button title="Small Rounded-sm" size="small" shape="rounded-sm" styles="bg-blue-500 text-white" />
+      <Button title="Medium Rounded-md" size="medium" shape="rounded-md" styles="bg-green-500 text-white" />
+      <Button title="Large Rounded-full" size="large" shape="rounded-full" styles="bg-red-500 text-white" />
+    </div>
+{/* 
             <div className="min-h-screen flex flex-col gap-6 justify-center items-center bg-gray-100 p-8">
       <h1 className="text-3xl font-bold">Landing Page Buttons</h1>
 
@@ -25,7 +33,7 @@ const Landing: React.FC =() =>{
         <Button title="Large - md" size="large" shape="rounded-md" />
         <Button title="Large - full" size="large" shape="rounded-full" />
       </div>
-    </div>
+    </div> */}
         
         </div>
     )

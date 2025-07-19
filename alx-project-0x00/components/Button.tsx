@@ -7,7 +7,7 @@ const sizeMap = {
     large: 'px-5 py-3 text-lg',
   };
 
-const Button: React.FC<ButtonProps> = ({ title, size = 'medium', shape = 'rounded-md', className = '' }) => {
+const Button: React.FC<ButtonProps> = ({ title, size = 'medium', shape = 'rounded-md',styles = '', className = '' }) => {
     const sizeClass = sizeMap[size];
     const shapeClass = shape;
   
