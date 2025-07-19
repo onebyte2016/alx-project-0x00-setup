@@ -74,3 +74,14 @@ Run the command npx create-next-app@latest alx-project-0x00 –typescript
 Select Yes for the following option [Eslint, Tailwind CSS, import alias]
 Select No for /src directory and App Router
 Start your application using the command npm run dev -- -p 3000
+
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
